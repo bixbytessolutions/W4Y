@@ -1,0 +1,514 @@
+*{
+    outline-style:none !important;
+}
+
+.content {
+    padding-top: 150px;
+}
+
+.nopaddingzero{
+    padding:0;
+}
+.searchsec{
+    width:100%;
+}
+.searchsec .form-control{
+    height:50px;
+   border-radius:20px;
+   width:100%;
+}
+
+#tab_default_4 table > tbody > tr > td:nth-child(4){
+font-weight: 600;
+}
+
+
+.customserachbtm{
+      margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .searchsec{
+  margin-bottom: 20px;
+ 
+  }
+.wkyysearch {
+    color:#fff !important;
+}
+.wkyysearch a{
+ height: 50px;
+    border-radius: 50%;
+    background-color: #1eb858;
+    color: #fff !important;
+    width: 50px;
+    display: table-cell;
+}
+.wkyysearch a:hover,.wkyysearch a:active,.wkyysearch a:visited{
+    color:#fff;
+    box-shadow:none;
+}
+
+.searchsec input:focus{
+       border:none;
+}
+.searchsec .form-control{
+    box-shadow:none;
+  background:#f6f6f6;
+  border:none;
+}
+
+
+
+
+
+.searchsec .form-control::-webkit-input-placeholder {
+  color: #000;
+}
+.searchsec .form-control::-moz-placeholder { 
+  color: #000;
+}
+.searchsec .form-control:-ms-input-placeholder { 
+  color: #000;
+}
+.searchsec .form-control:-moz-placeholder { 
+  color: #000;
+}
+
+
+.wky-custom-right .nav>li>a {
+ 
+    padding: 10px 35px;
+}
+
+
+
+
+.myprofilepage .panel{
+  box-shadow: none;
+
+}
+
+.myprofilepage{
+    min-height:500px;
+}
+
+
+.myprofilepage .panel-tabs {
+        position: relative;
+    bottom: 10px;
+    clear: both;
+   
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.myprofilepage .panel-tabs > li {
+    float: left;
+
+}
+
+.myprofilepage .panel-tabs > li > a {
+       
+    margin-top: 0px;
+  
+
+    border-radius: 20px;
+ 
+
+    color:#000;
+}
+.myprofilepage .panel-tabs li.active a{
+    color:#fff;
+}
+
+.myprofilepage .panel-tabs > li > a:hover {
+    border-color: transparent;
+ 
+    background-color: transparent;
+}
+
+.myprofilepage .panel-tabs li.active{
+       
+  
+    height: 40px;
+    border-radius: 20px;
+    color: #fff !important;
+    background: #1eb858;
+
+}
+.myprofilepage .panel-tabs > li > a
+.myprofilepage .panel-tabs > li.active > a,
+
+.myprofilepage .panel-tabs > li.active > a:focus {
+          
+    margin-top: 0px;
+    height: 40px;
+
+    border-radius: 20px;
+    color: #fff;
+    background: #1eb858;
+}
+.myprofilepage .panel-tabs > a:hover{
+    color:#000;
+
+}
+
+.insidetabcontent {
+       clear: both;
+    width: 100%;
+    overflow: auto;
+    min-height: 700px;
+}
+/* major changes */
+.dataTable.dataTable thead .sorting{
+  background: none !important;
+}
+.customwkyd table.dataTable tbody tr {
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom:1px solid #ddd;
+}
+
+.dataTable.dataTable thead .sorting_desc {
+   background: none !important;
+}
+
+.customwkyd .dataTable.display tbody td:last-child {
+    font-weight: 400;
+        padding-left: 8px;
+}
+
+.customwkyd .dataTable.display tbody td:nth-child(3) {
+    font-weight: 600;
+}
+
+.customwkyd .dataTable td::nth-child(2){
+  font-weight: 600;
+}
+
+.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background:none !important;
+}
+
+.csdropdown{
+  
+      position: relative;
+    width: 150px;
+
+}
+.csdropdown select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+      background-color: #f6f6f6;
+    border-radius: 20px;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+     position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid #000;
+    border-color: #000 #fff transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #000;
+    padding: 8px 16px;
+    cursor: pointer;
+    user-select: none;
+    user-select: none;
+    font-weight: 300;
+
+   
+}
+/*style items (options):*/
+.select-items {
+     position: absolute;
+    background-color: #f6f6f6;
+  
+    cursor: pointer;
+    user-select: none;
+    font-weight: normal;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 20px;
+        box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.2);
+            margin-top: 8px;
+            padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover {
+ background-color: #d8d8d8;
+}
+
+
+/* pagination */
+/* Data Table Pagination  */
+
+ .dataTables_wrapper .dataTables_paginate {
+    float: right;
+    text-align: right;
+    padding: 0px !important;
+    border: 1px solid #393939;
+  margin-top: 15px;
+
+    border-radius: 15px;
+}
+.dataTables_info {
+    display: block !important;
+    top: 4px !important ;
+    position: relative;
+    float: left !important;
+      margin-bottom: 20px;
+          font-size: 13px;
+}
+.dataTables_paginate span .paginate_button:first-child{
+    border-left: 1px solid #484848 !important;
+}
+.dataTables_paginate span .paginate_button {
+    border-right: 1px solid #484848 !important;
+    border-radius: 0px !important;
+    margin-left: 0px !important;
+}
+ .dataTables_wrapper .dataTables_paginate .paginate_button{
+    box-sizing: border-box !important;
+    display: inline-block !important;
+    min-width: 1.5em !important;
+    padding: 0px !important;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current , .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    background: #1eb858 !important;
+    color: #fff !important;
+}
+.dataTables_length{
+    display:none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+background: none;
+border: none;
+color: #000 !important;
+box-shadow: none;
+}
+
+
+/* end pagination */
+
+
+.myprofilepage .dataTable th{
+  white-space: nowrap;
+}
+.myprofilepage .insidetabcontent .tab-content>.active {
+   
+    min-height: 400px;
+}
+.dataTable th:not(:nth-child(1)):not(:nth-child(2)), .dataTable td:not(:nth-child(1)):not(:nth-child(2)) {
+   text-align: left; 
+}
+.insidetabcontent .tabbable-line > .nav-tabs {
+     border: none;
+    margin: 0px;
+    border-bottom: 1px solid #393939;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li > a {
+     border: 0;
+    margin-right: 0;
+    color: #000;
+    font-weight: 600;
+
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li > a > i {
+  color: #000;
+      margin-right: 5px;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+ border-bottom: 4px solid rgba(131, 211, 161, 0.9098039215686274);
+ position: relative;
+    top: 1px;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #000;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li.active {
+     border-bottom: 4px solid #1eb858;
+
+ 
+      position: relative;
+    top: 1px;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.insidetabcontent  .tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.insidetabcontent  .tabbable-line > .tab-content {
+
+  background-color: #fff;
+  border: 0;
+  
+  padding: 15px 0;
+  margin-top: 0px;
+}
+.insidetabcontent  .portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+.insidetabcontent .dataTable.dataTable.display tbody tr.even>.sorting_1, .insidetabcontent  table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background-color: transparent;
+}
+
+.insidetabcontent .dataTable.dataTable.display tbody tr.odd>.sorting_1, .insidetabcontent  table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color: transparent;
+}
+
+.insidetabcontent  .dataTable.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px 10px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dataTable.dataTable thead th:nth-child(1){
+    width:40% !important;
+}
+
+.dataTable.dataTable thead th:nth-child(1){
+    width:40% !important;
+}
+.dataTable.dataTable thead th:nth-child(2),.dataTable.dataTable thead th:nth-child(3),.dataTable.dataTable thead th:nth-child(4),.dataTable.dataTable thead th:nth-child(5){
+    width:15% !important;
+}
+
+.insidetabcontent  .dataTable.dataTable.no-footer {
+    border-bottom: 1px solid #ddd;
+}
+
+.insidetabcontent .tabbable-panel{padding: 0px;}
+
+.wky-custom-right{
+float: right;
+}
+
+.insidetabcontent dataTable .odd, .dataTable .even {
+   cursor: default  ; 
+}
+
+
+.searchsec input::-ms-clear {
+    display: none;
+}
+
+
+
+.dataTable .odd, .dataTable .even {
+ cursor: default; 
+}
+
+.insidetabcontent table.dataTable thead .sorting, .insidetabcontent table.dataTable thead .sorting_asc,.insidetabcontent  table.dataTable thead .sorting_desc, .insidetabcontent table.dataTable thead .sorting_asc_disabled, .insidetabcontent table.dataTable thead .sorting_desc_disabled{
+  cursor: default;
+}
+.dataTable.dataTable thead th{
+  cursor: default;
+  padding:10px 10px;
+}
+@media(max-width: 992px){
+
+  .myprofilepage .panel-tabs {
+   
+    bottom: 50px;
+ 
+}
+
+
+
+}
+
+@media(max-width: 767px){
+  
+
+
+
+.tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+
+
+}
+@media(max-width:600px){
+.wky-custom-right{
+float:none;
+margin:0 auto;
+}
+
+.myprofilepage .panel-tabs{
+  bottom: 0;
+}
+.myprofilepage .panel-tabs {
+   
+    bottom: 0px;
+
+    padding: 1px;
+ 
+}
+
+
+
+.myprofilepage .panel-tabs li.active a {
+    color: #fff;
+    text-align: center;
+}
+
+.myprofilepage .panel-tabs > li {
+    float: left;
+   
+    margin: 0px;
+    width: 50%;
+    text-align: center;
+}
+.myprofilepage .panel-tabs li.active {
+
+    height: 40px;
+    border-radius: 20px;
+    color: #fff !important;
+    background: #1eb858;
+  
+    margin: 0px;
+}
+}
+
+

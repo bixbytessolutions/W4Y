@@ -1,0 +1,412 @@
+
+.header::before {
+    content: '';
+    width: 100%;
+    height: 86px;
+    background-color: #000;
+    transform: skew(0deg, -1deg);
+    position: absolute;
+}
+.showFunctionalIcon{
+	display: none;
+}
+.picon:hover{
+	cursor:pointer;
+}
+.mtop{
+	margin-top:5%;
+}
+.dataTables_info{
+	display:none;
+}
+
+/*---  Carousel Filter ----*/
+
+#filter .title{
+	margin-top: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: #393939;
+}
+#filter .modal-content{
+	border-radius: 0px;
+	padding: 12px;
+}
+#filter .closeModal {
+    background-color: #1eb858;
+    padding: 0px 0px 0px 8px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}	
+ 
+#filter .projectWraper{
+	width: 100px;
+	height: 89px;
+	display: inline-block;
+	display: table;
+	float: left;
+	margin:  10px;
+	position:relative;
+	opacity: 0.5;
+	margin-left: 22px;
+}
+#filter .projectWraper.active{
+	opacity: 1;
+}
+
+#filter .projectWraper i{
+	font-size: 31px;
+	margin:  0px auto;
+	display:  table-cell;
+	/* vertical-align:  middle; */
+	text-align: center;
+}
+#filter .carousel-control {
+	background-image: none !important;
+	opacity:1;
+	width: 15px;
+	height: 20px;
+	position:  absolute;
+	top: -53px;
+	bottom: auto;
+	display: block !important;
+}
+#filter .carousel-control.left {
+	    right: 24px;
+    left: auto;
+}
+#filter .carousel-control.right{
+	left: auto;
+}
+#filter .carousel-control i{
+	color: #333;
+	text-shadow: none;
+font-size: 35px;
+	top: 0%;
+	position: relative;
+}
+#filter .projectWraper p{
+	position: absolute;
+	left: 0px;
+	bottom: 2px;
+	text-align: center;
+	width: 100%;
+	font-weight: normal;
+}
+
+.pListCarousel{
+	/* margin-top:30px; */
+	overflow:  hidden;
+	margin-bottom: 0px !important;
+	padding-top: 34px;
+}
+
+
+#projectCarousel .slick-track{
+	
+	display: flex;
+}
+
+#projectCarousel .slick-slide{
+	float:none;
+	position: relative;
+	margin-left: 50px;
+	width: 480px !important;
+}
+#projectCarousel .slick-current{
+	margin-left: 0px;
+}
+
+.pListCarousel .project h5{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 18px;
+	min-height: 30px;
+}
+
+.pListCarousel .project .picon{
+	background-color: #fff;
+    color: #1eb858;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 5px;
+    text-align: center;
+}
+.pListCarousel .project .ptop{
+	margin-top: 4px;
+}
+.pListCarousel .project .price{
+	font-weight: 800;
+    margin-left: 8px;
+}
+.pListCarousel .carousel-control{
+	background-image: none;
+	width: 17px;
+	height: 17px;
+	opacity: 1;
+	padding: 0px;
+	background-position: 0px;
+	position: absolute;
+	right: 0px;
+	left: auto;
+	background-repeat:  no-repeat;
+}
+.pListCarousel  .slick-prev{
+	top: 11px;
+	right: 10px;
+	background: url(../images/arrow.png);
+	background-size: cover;
+	position: absolute;
+	left: auto;
+}
+.pListCarousel  .slick-prev:before , .pListCarousel  .slick-next:before{
+	content:'';
+}
+.pListCarousel  .slick-prev:hover , .pListCarousel  .slick-prev:focus{
+	 background: url(../images/arrow.png);
+	  background-size: cover;
+}
+.pListCarousel  .slick-next{
+	top: 11px;
+	right: 0px;
+	background: url(../images/arrow.png);
+	background-size: cover;
+	background-position: -25px 0px;
+}
+.pListCarousel  .slick-next:hover , .pListCarousel  .slick-next:focus{
+	background: url(../images/arrow.png);
+	 background-size: cover;
+	 background-position: -25px 0px;
+}
+.pListCarousel  .slick-list {
+    padding-bottom: 4px;
+}
+
+.pListCarousel  .slick-disabled{
+	pointer-events: none;
+	opacity:0.8;
+}
+
+
+.pListCarousel  .carousel-inner{
+	padding-bottom:20px;
+}
+
+.divider{
+	width: 100%;
+    height: 1px;
+    background-color: #000000;
+    display: block;
+    margin: 40px 0px 50px 0px;
+}
+
+/* UI Range */
+#leftRange, #rightRange{
+	font-weight:bold;
+
+	    margin-top: 5px;
+}
+.ui-slider {
+   background: #fafafa;
+  
+    height: 17px;
+    position: relative;
+    border-radius: 100px;
+    width: 270px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+#slider-range.ui-widget.ui-widget-content {
+    border: 1px solid #dddddd;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+
+    margin-left: 0px;
+}
+
+#slider-range .ui-slider-handle {
+ 
+    position: absolute !important;
+    width: 16px !important;
+    height: 16px !important;
+    top: 50% !important;
+    display: block !important;
+    transform: translate(-50%, -50%) !important;
+    border-radius: 100px !important;
+    z-index: 10 !important;
+    background: #fff !important;
+    cursor: -webkit-grab !important;
+    transition: width 0.1s !important;
+    box-shadow: 0 0 1px 1px rgba(175, 175, 175, 0.6) !important;
+	outline: none !important;
+	border:none !important;
+}
+#slider-range .ui-slider-handle:active{
+	background: #ccc !important;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+  
+}
+
+#slider-range .ui-widget-header {
+    border: 7.5px solid #1eb858;
+    
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Data table */
+
+.dataTable th{
+	color:#393939;
+}
+
+
+#TABLE_2_wrapper {
+    position: relative;
+    clear: both;
+    zoom: 1;
+    padding: 4px;
+}
+.divFlex .closeModal{
+	position:relative;
+	right: auto;
+    top: auto;
+}
+.dataTable .picon {
+    color: #1eb858;
+    margin-right: 5px;
+	background-color:#fff;
+    color: #1eb858;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 8px;
+    text-align: center;
+}
+.dataTable .shown .picon {
+	background-color:#fff;
+}
+.dataTable th:not(:nth-child(1)):not(:nth-child(2)) ,.dataTable td:not(:nth-child(1)):not(:nth-child(2)){
+	text-align:right;
+}
+.dataTable .picon{
+	color: #1eb858;
+	margin-right: 26px;
+}
+.dataTable.dataTable thead .sorting {
+    background-image: url(../images/sort_both.png);
+	background-repeat:no-repeat;
+	background-position:top 10px right;
+}
+.dataTable.dataTable thead .sorting_desc {
+    background-image: url(../images/sort_both.png);
+	background-repeat:no-repeat;
+	background-position:top 10px right;
+}
+.dataTable.dataTable thead .sorting_asc {
+    background-image: url(../images/sort_asc.png);
+	background-repeat:no-repeat;
+	background-position:top 10px right;
+}
+.dataTable .row-border tbody th, .dataTable.row-border tbody td, .dataTable.display tbody th, .dataTable.display tbody td {
+    border-top: 1px solid #dcdcdc;
+    padding: 20px 10px 20px 10px;
+}
+.dataTable.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color: transparent;
+}
+.dataTable.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    background-color: transparent;
+}
+.dataTable.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background-color: transparent;
+}
+
+.dataTable.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px 10px 10px;
+    border-bottom: 1px solid #ddd;
+}
+.dataTable .odd , .dataTable .even {
+   cursor:pointer;
+}
+.dataTable.display tbody td:last-child{
+	font-weight:600;
+}
+.dataTable .bidProject a{
+	color: #1eb858;
+	text-decoration: none;
+}
+.dataTable  .projectDescription{
+	color: #585858;
+    font-weight: normal;
+    font-size: 13px;
+}
+.dataTable  .shown td:nth-child(1){
+	border-left: #1eb858 solid 2px;
+	border-bottom: none;
+	
+}
+.dataTable.dataTable.no-footer {
+    border-bottom: 1px solid #ddd;
+}
+.dataTable  .shown {
+	background-color:#f5f5f5 !important;
+}
+.dataTable  .shown:hover{
+	background-color:#f5f5f5 !important;
+}	
+.dataTable  .shown + tr td:hover{
+	background-color:#f5f5f5 !important;
+}	
+.dataTable  .shown + tr td{
+	border-left: #1eb858 solid 2px;
+	border-top: none !important;
+}
+.dataTable  .shown + tr {
+	background-color:#f5f5f5;
+}
+.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background-color: #f5f5f5 !important;
+}
+
+
+/* media queries */
+@media(max-width:767px){
+	.pListCarousel .project {
+		max-width: 100%;
+		margin-top:10px;
+	}
+	.dataTable .picon {
+		margin-right: 5px;
+	}
+	#profile_page_list_wrapper , #project_list_wrapper{
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+	.pListCarousel .project {
+		margin-left: 0px;
+	}
+	#project_list tr th:nth-child(2) , #project_list tr td:nth-child(2){
+		display: none;
+	}
+	.showFunctionalIcon{
+		display: block;
+	}
+
+
+
+}
+
+
